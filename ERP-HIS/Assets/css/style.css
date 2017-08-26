@@ -1,0 +1,45 @@
+﻿/**/
+.login {
+    margin-top: 27px;
+}
+
+.set-logo {
+    background: #fff;
+    color: #ddd;
+    border-radius: 500%;
+    padding: 11px;
+    font-size: 108px;
+    border: solid #ddd 14px;
+}
+
+.logo {
+    margin-top: 27px;
+    margin-bottom: 54px;
+}
+
+.last-row {
+    margin-bottom: 0px;
+}
+
+.checklabel {
+    font-weight: 100;
+}
+
+/*btn*/
+.btn-exclusive {
+    color: #fff;
+    background-color: #00854E;
+    border-color: #274E13;
+}
+.btn-exclusive:focus,
+.btn-exclusive.focus {
+    color: #fff;
+    background-color: #A2CA1E;
+    border-color: #00854E;
+}
+.btn-exclusive:hover {
+    color: #fff;
+    background-color: #A2CA1E;
+    border-color: #00854E;
+}
+

@@ -1,0 +1,1 @@
+var block = $('<div class="block-loading" />');

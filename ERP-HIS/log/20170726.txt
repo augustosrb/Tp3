@@ -1,0 +1,24 @@
+ERP_HIS.Controllers.ErrorController 10:58:59
+Index - El proceso no puede obtener acceso al archivo 'D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\log\20170726.txt' porque está siendo utilizado en otro proceso.
+
+DLHIS.DLUsuario 10:59:14
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 10:59:16
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+ERP_HIS.Controllers.ErrorController 10:59:17
+Index - El proceso no puede obtener acceso al archivo 'D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\log\20170726.txt' porque está siendo utilizado en otro proceso.
+
+DLHIS.DLUsuario 10:59:17
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+ERP_HIS.Controllers.ErrorController 14:05:07
+Index - D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\Views\iniciooi\index.cshtml(55): error CS1579: foreach statement cannot operate on variables of type 'ELHIS.ELOrdenIntervencion' because 'ELHIS.ELOrdenIntervencion' does not contain a public definition for 'GetEnumerator'
+
+ERP_HIS.Controllers.ErrorController 14:06:19
+Index - D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\Views\iniciooi\index.cshtml(55): error CS1579: foreach statement cannot operate on variables of type 'ELHIS.ELOrdenIntervencion' because 'ELHIS.ELOrdenIntervencion' does not contain a public definition for 'GetEnumerator'
+
+ERP_HIS.Controllers.ErrorController 14:06:28
+Index - No se encuentra el controlador de la ruta de acceso '/__browserLink/requestData/6297bf9f574d41b9830e4ad5aa621c77' o no implementa IController.
+

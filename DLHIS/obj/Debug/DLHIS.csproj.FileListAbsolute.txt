@@ -1,0 +1,45 @@
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.csprojResolveAssemblyReference.cache
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.csprojResolveAssemblyReference.cache
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\DLHIS.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\ELHIS.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\bin\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.csprojResolveAssemblyReference.cache
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\DLHIS\obj\Debug\DLHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\DLHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\DLHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\ELHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\ELHIS.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\bin\Debug\Helper.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\obj\Debug\DLHIS.csprojResolveAssemblyReference.cache
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\obj\Debug\DLHIS.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\DLHIS\obj\Debug\DLHIS.pdb
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\DLHIS.dll
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\DLHIS.pdb
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\ELHIS.dll
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\Helper.dll
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\ELHIS.pdb
+D:\UPC\TP3\software\ERP-HIS\DLHIS\bin\Debug\Helper.pdb
+D:\UPC\TP3\software\ERP-HIS\DLHIS\obj\Debug\DLHIS.csprojResolveAssemblyReference.cache
+D:\UPC\TP3\software\ERP-HIS\DLHIS\obj\Debug\DLHIS.dll
+D:\UPC\TP3\software\ERP-HIS\DLHIS\obj\Debug\DLHIS.pdb

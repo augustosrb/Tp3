@@ -1,0 +1,20 @@
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\Helper\bin\Debug\Helper.pdb
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.dll
+D:\Clinica RP\Clinica RP\Clinica RP\ERP-HIS\Helper\obj\Debug\Helper.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\bin\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\bin\Debug\Helper.pdb
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.dll
+D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.pdb

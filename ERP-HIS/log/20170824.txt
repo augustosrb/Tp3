@@ -1,0 +1,87 @@
+ERP_HIS.Controllers.ErrorController 16:44:52
+Index - El servidor no puede establecer el tipo de contenido después de enviar los encabezados HTTP.
+
+ERP_HIS.Controllers.ErrorController 17:28:28
+Index - D:\UPC\TP3\software\ERP-HIS\ERP-HIS\Views\inicio\Index.cshtml(8): error CS0103: The name 'usuario' does not exist in the current context
+
+DLHIS.DLUsuario 21:16:14
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:54:42
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:54:46
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 21:54:46
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:05
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:55:05
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:55:05
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 21:55:05
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLUsuario 21:55:11
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLUsuario 21:55:11
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:11
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 21:55:12
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:12
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 21:55:12
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:12
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLUsuario 21:55:12
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:12
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+ERP_HIS.Controllers.ErrorController 21:55:12
+Index - El proceso no puede obtener acceso al archivo 'D:\UPC\TP3\software\ERP-HIS\ERP-HIS\log\20170824.txt' porque está siendo utilizado en otro proceso.
+
+BLHIS.BLUsuario 21:55:12
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLUsuario 21:55:13
+DL_Autenticar - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+ERP_HIS.Controllers.ErrorController 21:55:13
+Index - El proceso no puede obtener acceso al archivo 'D:\UPC\TP3\software\ERP-HIS\ERP-HIS\log\20170824.txt' porque está siendo utilizado en otro proceso.
+
+BLHIS.BLUsuario 21:55:13
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLUsuario 21:55:13
+Acceder - Referencia a objeto no establecida como instancia de un objeto.
+
+ERP_HIS.Controllers.ErrorController 21:55:14
+Index - El proceso no puede obtener acceso al archivo 'D:\UPC\TP3\software\ERP-HIS\ERP-HIS\log\20170824.txt' porque está siendo utilizado en otro proceso.
+
+DLHIS.DLUsuario 21:55:34
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:55:34
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLUsuario 21:55:34
+ObtenerUsuarioLogeado - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
