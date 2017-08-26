@@ -56,6 +56,44 @@ namespace DLHIS
             return objListaOrdenIntervencion;
         }
 
+        public List<ELOrdenIntervencion> DL_ConsultarOM(string dni)
+        {
+            List<ELOrdenIntervencion> objListaOrdenMedica = new List<ELOrdenIntervencion>();
+
+            try
+            {
+                using (SqlConnection conn = new SqlConnection(strCon))
+                {
+                    conn.Open();
+
+                    cmd.Connection = conn;
+                    cmd.CommandText = "USP_ConsultarOI+M";
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.Clear();
+
+                    SqlDataReader drSQL = fLeer(cmd);
+
+                    if (drSQL.HasRows)
+                    {
+                        objListaOrdenMedica = (List<ELOrdenIntervencion>)ConvertirDataReaderALista<ELOrdenIntervencion>(drSQL);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                ELog.Save(this, e);
+            }
+            finally
+            {
+                if (cmd.Connection.State == ConnectionState.Open)
+                {
+                    cmd.Connection.Close();
+                }
+            }
+
+            return objListaOrdenMedica;
+        }
+
         public List<ELOrdenMedica> DL_BuscarOrdenMedica(string dni)
         {
             List<ELOrdenMedica> objListaOrdenMedica= new List<ELOrdenMedica>();

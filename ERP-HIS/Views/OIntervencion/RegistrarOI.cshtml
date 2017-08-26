@@ -14,75 +14,74 @@
                     <form id="form_buscar_paciente" class="form-group" autocomplete="off">
                         <label class="col-md-1 control-label">Documento</label>
                         <div class="col-md-3">
-                                <input name="documento" class="form-control" type="text" placeholder="Documento" />
+                                <input id="documento" name="documento" class="form-control" type="text" placeholder="Documento" />
                         </div>
                         <div class="col-md-3">
                             <div class="input-group">
-
-
-                                <button id="genpassword" class="btn btn-exclusive" type="submit">
+                                <button id="buscarPaciente" class="btn btn-exclusive" type="submit">
                                     Buscar
                                 </button>
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label class="control-label">Apellido Paterno</label>
-                            <input type="text" class="form-control" placeholder="Bazan" disabled>
+                <form id="form_datos_paciente">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="control-label">Apellido Paterno</label>
+                                <input name="cApePaterno" type="text" class="form-control" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="control-label">Apellido Paterno</label>
+                                <input name="cApeMaterno" type="text" class="form-control" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label class="control-label">Nombres</label>
+                                <input name="cNombres" type="text" class="form-control" disabled>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label class="control-label">Apellido Paterno</label>
-                            <input type="text" class="form-control" placeholder="Tafur" disabled>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Historia Clínica</label>
+                                <input name="cCodigoHC" type="text" class="form-control" disabled>
+                            </div> 
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Fecha Naciemiento</label>
+                                <input name="cFecNac" type="text" class="form-control" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Edad</label>
+                                <input name="nEdad" type="text" class="form-control" disabled>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label class="control-label">Sexo</label>
+                                <input name="cSexo" type="text" class="form-control" disabled>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                            <label class="control-label">Nombres</label>
-                            <input type="text" class="form-control" placeholder="Julio" disabled>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Historia Clínica</label>
-                            <input type="text" class="form-control" placeholder="123456789123" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Fecha Naciemiento</label>
-                            <input type="text" class="form-control" placeholder="12/12/1992" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Edad</label>
-                            <input type="text" class="form-control" placeholder="Tafur" disabled>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="form-group">
-                            <label class="control-label">Sexo</label>
-                            <input type="text" class="form-control" placeholder="Masculino" disabled>
-                        </div>
-                    </div>
-                </div>
+                </form>
                 <div class="portlet-body">
-                    <table class="table table-striped table-bordered table-hover order-column" id="tableNormal">
+                    <table class="table table-striped table-bordered table-hover order-column" id="tableNoPaging">
                         <thead>
                             <tr>
-                                <th> Nro.Orden </th>
+                                <th class="novis"> Nro.Orden </th>
                                 <th class="novis"> IdOrden </th>
-                                <th> Tipo Intervención </th>
                                 <th> Médico Tratante </th>
-                                <th> Fecha Intervención </th>
-                                <th> Acción </th>
+                                <th> Tipo Intervención </th>
+                                <th> Estado </th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -90,6 +89,7 @@
                 </div>
                 <div class="form-group">
                     <div class="col-md-3">
+                        Fecha de Intervencion
                         <div class="date-picker" data-date-format="mm/dd/yyyy"> </div>
                     </div>
                 </div>
@@ -98,26 +98,43 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Sede</label>
-                            <input type="text" class="form-control">
+                            <select class="form-control">
+                                <option value="S">Seleccione</option>
+                                <option value="M">San Borja</option>
+                                <option value="F">La Molina</option>
+                            </select>
                         </div>
                     </div>
                     <!--/span-->
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Zona</label>
-                            <input type="text" class="form-control">
+                            <select class="form-control">
+                                <option value="S">Seleccione</option>
+                                <option value="M">Torre A</option>
+                                <option value="F">Torre B</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Sala</label>
-                            <input type="text" class="form-control">
+                            <select class="form-control">
+                                <option value="S">Seleccione</option>
+                                <option value="M">S 301</option>
+                                <option value="F">S 302</option>
+                            </select>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Hab.Reposo</label>
-                            <input type="text" class="form-control">
+                            <select class="form-control">
+                                <option value="S">Seleccione</option>
+                                <option value="M">HR 102</option>
+                                <option value="F">HR 206</option>
+                                <option value="F">HR 306</option>
+                            </select>
                         </div>
                     </div>
                 </div>

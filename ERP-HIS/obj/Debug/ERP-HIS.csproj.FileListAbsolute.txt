@@ -238,6 +238,7 @@ D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\bin\es\System.Web.Mv
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.csprojResolveAssemblyReference.cache
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.dll
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.pdb
+D:\UPC\TP3\software\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.csprojResolveAssemblyReference.cache
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\roslyn\csc.exe
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\roslyn\csc.exe.config
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\roslyn\csc.rsp
@@ -296,6 +297,5 @@ D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\es\System.Web.Webpages.Deployment.resour
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\es\System.Web.Webpages.Razor.resources.dll
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\es\System.Web.Helpers.resources.dll
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\bin\es\System.Web.Mvc.resources.dll
-D:\UPC\TP3\software\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.csprojResolveAssemblyReference.cache
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.dll
 D:\UPC\TP3\software\ERP-HIS\ERP-HIS\obj\Debug\ERP-HIS.pdb

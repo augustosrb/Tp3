@@ -1,4 +1,57 @@
 var TableAplicacion = function () {
+
+    var tableNoPaging= function () {
+
+        if ($.fn.dataTable.isDataTable('#tableNoPaging')) {
+            table = $('#tableNoPaging').DataTable();
+            return;
+        }
+        else {
+            table = $('#tableNoPaging');
+        }
+        var table = $('#tableNoPaging');
+
+        /* Fixed header extension: http://datatables.net/extensions/scroller/ */
+
+        var oTable = table.dataTable({
+            "paging" : false,
+            "bLengthChange": false,
+            "ordering": false,
+            "searching": false,
+            "language": {
+                "aria": {
+                    "sortAscending": ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                },
+                "emptyTable": "No se encontraron registros",
+                "info": "     ",
+                "infoEmpty": "    ",
+                "infoFiltered": "(filtered1 from _MAX_ total entries)",
+                "lengthMenu": "Show _MENU_",
+                "search": "Search:",
+                "zeroRecords": "No matching records found"
+            },
+            "deferRender": true,
+            "order": [
+                [0, 'asc']
+            ],
+            "lengthMenu": [
+                [5, 10, 15, 20, -1],
+                [5, 10, 15, 20, "All"] // change per page values here
+            ],
+            "pageLength": 5, // set the initial value
+            //responsive: true,// setup responsive extension: http://datatables.net/extensions/responsive/
+            "aoColumnDefs": [{
+                "bSortable": false,
+                "aTargets": ['nosort']
+            },
+            {
+                "bVisible": false,
+                "aTargets": ['novis']
+            },
+            ]
+        });
+    }
 	
 	 var tableNormal = function () {
 
@@ -258,6 +311,7 @@ var TableAplicacion = function () {
             tableBuscarProducto();
             tableFactura();
             tableReporte();
+            tableNoPaging();
         }
 
     };

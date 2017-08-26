@@ -10,7 +10,23 @@ namespace ELHIS
     {
 
         [ELColumn("cOrdenMedId")]
-        public string cOrdenMedId { get; set; }
+        public int cOrdenMedId { get; set; }
+
+        [ELColumn("IdOrden")]
+        public int IdOrden { get; set; }
+
+        [ELColumn("DNI")]
+        public string Dni { get; set; }
+
+        [ELColumn("ApeNom")]
+        public string Apenom { get; set; }
+
+        [ELColumn("TipoInt")]
+        public string TipoInt { get; set; }
+
+        [ELColumn("Estado")]
+        public string Estado { get; set; }
+
 
         [ELColumn("nOrdenMedId")]
         public int nOrdenMedId { get; set; }

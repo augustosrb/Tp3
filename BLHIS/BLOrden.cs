@@ -30,6 +30,21 @@ namespace BLHIS
             return ordenIntervencion;
         }
 
+        public List<ELOrdenMedica> BL_ConsultarOM(string dni)
+        {
+            List<ELOrdenMedica> ordenIntervencion = new List<ELOrdenMedica>();
+            try
+            {
+                ordenIntervencion = dlOrden.DL_BuscarOrdenMedica(dni);
+            }
+            catch (Exception e)
+            {
+                ELog.Save(this, e);
+            }
+
+            return ordenIntervencion;
+        }
+
         public ELPaciente BL_BuscarPaciente(string dni)
         {
             ELPaciente paciente = new ELPaciente();

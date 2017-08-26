@@ -34,30 +34,21 @@ namespace ERP_HIS.Controllers
             return Json(lstOrdenIntervencion, JsonRequestBehavior.AllowGet);
         }
 
-
-
-        [OnlyAjaxRequestAttribute]
-        public PartialViewResult ConsultarOI()
+        public JsonResult buscarPaciente(string dni)
         {
-             return PartialView("~/views/ointervencion/consultaroi.cshtml", um.BL_ConsultarOI());
+            BLOrden bl = new BLOrden();
+            ELPaciente objBuscarPaciente = bl.BL_BuscarPaciente(dni);
+            return Json(objBuscarPaciente, JsonRequestBehavior.AllowGet);
         }
 
-        [OnlyAjaxRequestAttribute]
-        public PartialViewResult BuscarPaciente(string dni)
+        public JsonResult buscarOrdenesMedicas(string dni)
         {
-            return PartialView("~/views/ointervencion/buscarpaciente.cshtml", um.BL_BuscarPaciente(dni));
+            BLOrden bl = new BLOrden();
+            List<ELOrdenMedica> lstOrdenMedica = bl.BL_ConsultarOM(dni);
+            return Json(lstOrdenMedica, JsonRequestBehavior.AllowGet);
         }
 
-        [OnlyAjaxRequestAttribute]
-        public PartialViewResult BuscarRequisitos(int inter)
-        {
-            return PartialView("~/views/ointervencion/buscarrequisitos.cshtml", um.BL_BuscarRequisitos(inter));
-        }
 
-        [OnlyAjaxRequestAttribute]
-        public PartialViewResult GuardarOI()
-        {
-            return PartialView("~/views/ointervencion/buscarrequisitos.cshtml");
-        }
+
     }
 }
