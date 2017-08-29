@@ -41,7 +41,16 @@ namespace ERP_HIS.Controllers
             return Json(objBuscarPaciente, JsonRequestBehavior.AllowGet);
         }
 
+
+
         public JsonResult buscarOrdenesMedicas(string dni)
+        {
+            BLOrden bl = new BLOrden();
+            List<ELOrdenMedica> lstOrdenMedica = bl.BL_ConsultarOM(dni);
+            return Json(lstOrdenMedica, JsonRequestBehavior.AllowGet);
+        }
+
+        public JsonResult buscarOrdenesMedicas1(string dni)
         {
             BLOrden bl = new BLOrden();
             List<ELOrdenMedica> lstOrdenMedica = bl.BL_ConsultarOM(dni);
