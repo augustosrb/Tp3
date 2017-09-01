@@ -17,6 +17,7 @@ namespace ERP_HIS
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Inicio", action = "Index", id = UrlParameter.Optional }
+
             );
         }
     }
