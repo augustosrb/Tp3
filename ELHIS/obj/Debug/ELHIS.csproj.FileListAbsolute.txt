@@ -20,5 +20,6 @@ D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ELHIS\bin\Debug\ELHIS.dll
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\ELHIS\bin\Debug\ELHIS.pdb
 D:\UPC\TP3\software\ERP-HIS\ELHIS\bin\Debug\ELHIS.dll
 D:\UPC\TP3\software\ERP-HIS\ELHIS\bin\Debug\ELHIS.pdb
+D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.csprojResolveAssemblyReference.cache
 D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.dll
 D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.pdb

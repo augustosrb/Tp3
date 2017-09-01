@@ -9,7 +9,6 @@ using ERP_HIS.CustomAttributes;
 
 namespace ERP_HIS.Controllers
 {
-    [IfNotLoggedActionAttribute]
     public class InicioController : Controller
     {
         // GET: Inicio
