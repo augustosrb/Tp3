@@ -18,6 +18,16 @@ namespace DLHIS
         #endregion
 
         #region Metodos
+        protected void pAddParameter(SqlCommand command, String parameterName, Object value, SqlDbType dbTipo)
+        {
+            SqlParameter parameter = command.CreateParameter();
+            parameter.ParameterName = parameterName;
+            parameter.Value = value;
+            parameter.SqlDbType = dbTipo;
+            parameter.Direction = ParameterDirection.Input;
+            command.Parameters.Add(parameter);
+        }
+
         public SqlConnection NewConnection(String strCan)
         {
             try

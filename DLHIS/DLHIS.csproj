@@ -41,8 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DLAmbiente.cs" />
     <Compile Include="DLDBOBase.cs" />
+    <Compile Include="DLMaestro.cs" />
     <Compile Include="DLOrden.cs" />
+    <Compile Include="DLPlanIntervencion.cs" />
+    <Compile Include="DLPriorizarAtencion.cs" />
+    <Compile Include="DLTipoIntervencion.cs" />
     <Compile Include="DLUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

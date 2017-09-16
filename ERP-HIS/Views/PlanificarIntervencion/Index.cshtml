@@ -1,1 +1,82 @@
-﻿
+﻿@{
+    ViewBag.Title = ViewBag.nombrePage;
+}
+<div class="portlet light bordered">
+    <div class="portlet-title">
+        <div class="caption">
+            <span class="caption-subject font-blue-hoki bold uppercase">@ViewBag.nombrePage</span>
+        </div>
+    </div>
+    <div class="portlet-body form">
+        <div action="#" class="horizontal-form">
+            <div class="form-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label">Tipo de Intervención</label>
+                            <select id="tipointervencion" class="bs-select form-control" data-live-search="true"></select>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group">
+                            <label class="control-label">Fecha</label>
+                            <input class="form-control input-medium date-picker" size="16" type="text" value="" id="fecha" data-date-format="dd/mm/yyyy" />
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                    </div>
+                    <div class="col-md-3" align="right">
+                        <div class="form-group">
+                            <button id="btnConsultarPlan" type="button" class="btn default">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END FORM-->
+        <div class="portlet-body">
+            <table class="table table-striped table-bordered table-hover order-column" id="tableNormal">
+                <thead>
+                    <tr>
+                        <th> Paciente </th>
+                        <th class="novis"> IdOrden </th>
+                        <th class="novis"> TipoIntId </th>
+                        <th> Tipo Inter. </th>
+                        <th> Fecha </th>
+                        <th> Cant. Prof. </th>
+                        <th> Cant. Req. </th>
+                        <th> </th>
+                        <th> </th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="text-align:center;">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title"><b>Añadir Requisito</b></h4>
+                    </div>
+                    <div class="modal-body">
+                        <label hidden="hidden" id="codorden"></label>
+                        <label class="control-label">Descripción</label>
+                        <input class="form-control input-xxlarge" size="16" type="text" id="descripcion" />
+
+                        <label class="control-label">Cantidad</label>
+                        <input class="form-control input-medium" size="16" type="text" id="cantidad" />
+                        <br/>
+                        <button id="btnRegDetalle" type="button" class="btn default">Registrar</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn default">Guardar</button>
+                        <button type="button" class="btn dark btn-outline" data-dismiss="modal">Salir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>

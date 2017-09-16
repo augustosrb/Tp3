@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -4658,7 +4659,10 @@
     <Content Include="Assets\global\scripts\app.min.js" />
     <Content Include="Assets\global\scripts\datatable.js" />
     <Content Include="Assets\global\scripts\datatable.min.js" />
+    <Content Include="Assets\js\actualizarpostope.js" />
     <Content Include="Assets\js\clinica\clinica.js" />
+    <Content Include="Assets\js\ointervencion.js" />
+    <Content Include="Assets\js\init-elements.js" />
     <Content Include="Assets\layouts\global\scripts\cookie-consent.js" />
     <Content Include="Assets\layouts\global\scripts\cookie-consent.min.js" />
     <Content Include="Assets\layouts\global\scripts\hor-timeline.js" />
@@ -5492,16 +5496,22 @@
     <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Login\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ActualizarPostOpeController.cs" />
+    <Compile Include="Controllers\AmbienteController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\InicioController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\MaestroController.cs" />
     <Compile Include="Controllers\OIntervencionController.cs" />
     <Compile Include="Controllers\PlanificarIntervencionController.cs" />
+    <Compile Include="Controllers\PriorizarAtencionController.cs" />
     <Compile Include="CustomAttributes\CustomAtrributes.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -5877,6 +5887,8 @@
     <Content Include="Assets\pages\media\pages\Thumbs.db" />
     <Content Include="Views\OIntervencion\RegistrarOI.cshtml" />
     <Content Include="Views\PlanificarIntervencion\Index.cshtml" />
+    <Content Include="Views\ActualizarPostOpe\Index.cshtml" />
+    <Content Include="Views\PriorizarAtencion\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -5890,6 +5902,8 @@
     <Folder Include="Assets\global\plugins\angularjs\plugins\angular-file-upload\uploads\" />
     <Folder Include="log\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Ambiente\" />
+    <Folder Include="Views\Maestro\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BLHIS\BLHIS.csproj">

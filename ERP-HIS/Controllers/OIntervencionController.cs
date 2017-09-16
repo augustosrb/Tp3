@@ -27,17 +27,18 @@ namespace ERP_HIS.Controllers
             return View();
         }
 
-        public JsonResult ListadoOrden()
+        public JsonResult ListadoOrden(string documento, int estado)
         {
             BLOrden bl = new BLOrden();
-            List<ELOrdenIntervencion> lstOrdenIntervencion = bl.BL_ConsultarOI();
+            List<ELOrdenIntervencion> lstOrdenIntervencion = bl.BL_ConsultarOI(documento, estado);
             return Json(lstOrdenIntervencion, JsonRequestBehavior.AllowGet);
         }
 
         public JsonResult buscarPaciente(string dni)
         {
             BLOrden bl = new BLOrden();
-            ELPaciente objBuscarPaciente = bl.BL_BuscarPaciente(dni);
+
+            ELPaciente objBuscarPaciente = bl.BL_BuscarPaciente(dni, "");
             return Json(objBuscarPaciente, JsonRequestBehavior.AllowGet);
         }
 
@@ -46,6 +47,13 @@ namespace ERP_HIS.Controllers
             BLOrden bl = new BLOrden();
             List<ELOrdenMedica> lstOrdenMedica = bl.BL_ConsultarOM(dni);
             return Json(lstOrdenMedica, JsonRequestBehavior.AllowGet);
+        }
+
+        public JsonResult registrarOrden(int habreposo,int nOrdenMedId)
+        {
+            BLOrden bl = new BLOrden();
+            string res = bl.BL_registrarOrden(habreposo, nOrdenMedId);
+            return Json(res, JsonRequestBehavior.AllowGet);
         }
 
 

@@ -23,3 +23,10 @@ D:\UPC\TP3\software\ERP-HIS\ELHIS\bin\Debug\ELHIS.pdb
 D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.csprojResolveAssemblyReference.cache
 D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.dll
 D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.pdb
+D:\UPC\TP3\software\ERP-HIS\ELHIS\obj\Debug\ELHIS.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\obj\Debug\ELHIS.csprojResolveAssemblyReference.cache
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\obj\Debug\ELHIS.csproj.CoreCompileInputs.cache
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\obj\Debug\ELHIS.dll
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\obj\Debug\ELHIS.pdb
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\bin\Debug\ELHIS.dll
+C:\Users\Julio\Desktop\TP3\ERP-HIS\ELHIS\bin\Debug\ELHIS.pdb

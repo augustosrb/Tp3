@@ -40,11 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ELAmbiente.cs" />
     <Compile Include="ELColumn.cs" />
+    <Compile Include="ELMaestro.cs" />
     <Compile Include="ELOrdenIntervencion.cs" />
     <Compile Include="ELOrdenMedica.cs" />
     <Compile Include="ELPaciente.cs" />
+    <Compile Include="ELPlanIntervencion.cs" />
+    <Compile Include="ELPriorizarAtencion.cs" />
     <Compile Include="ELRequisitos.cs" />
+    <Compile Include="ELTipoIntervencion.cs" />
     <Compile Include="ELUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

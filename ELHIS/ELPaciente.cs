@@ -11,11 +11,8 @@ namespace ELHIS
         [ELColumn("nPacienteId")]
         public int nPacienteId { get; set; }
 
-        [ELColumn("cDNI")]
-        public string cDNI { get; set; }
-
-        [ELColumn("cNombres")]
-        public string cNombres { get; set; }
+        [ELColumn("cNomCompleto")]
+        public string cNomCompleto { get; set; }
 
         [ELColumn("cApePaterno")]
         public string cApePaterno { get; set; }
@@ -23,22 +20,30 @@ namespace ELHIS
         [ELColumn("cApeMaterno")]
         public string cApeMaterno { get; set; }
 
-        [ELColumn("cFecNac")]
-        public string cFecNac { get; set; }
-
-        [ELColumn("cSexo")]
-        public string cSexo { get; set; }
-
-        [ELColumn("cCodigoHC")]
-        public string cCodigoHC { get; set; }
+        [ELColumn("cNombres")]
+        public string cNombres { get; set; }
 
         [ELColumn("nEdad")]
         public int nEdad { get; set; }
 
-        public Boolean bExiste { get; set; }
+        [ELColumn("cSexo")]
+        public string cSexo { get; set; }
 
-        public List<ELOrdenMedica> lstOrdenMedica { get; set; }
+        [ELColumn("cMaestroDescripcion")]
+        public string cMaestroDescripcion { get; set; }
 
-        public List<ELRequisitos> lstRequisitos { get; set; }
+        [ELColumn("cNroDocumento")]
+        public string cNroDocumento { get; set; }
+
+        [ELColumn("cNroHistoriaClinica")]
+        public string cNroHistoriaClinica { get; set; }
+
+        [ELColumn("cFechaNacimiento")]
+        public string cFechaNacimiento { get; set; }
+
+        [ELColumn("cAlergias")]
+        public string cAlergias { get; set; }
+
+        public List<ELOrdenMedica> lstOrdenMedica{ get; set; }
     }
 }

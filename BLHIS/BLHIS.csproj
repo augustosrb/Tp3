@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLAmbiente.cs" />
+    <Compile Include="BLMaestro.cs" />
     <Compile Include="BLOrden.cs" />
+    <Compile Include="BLPlanIntervencion.cs" />
+    <Compile Include="BLPriorizarAtencion.cs" />
+    <Compile Include="BLTipoIntervencion.cs" />
     <Compile Include="BLUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResponseModel.cs" />

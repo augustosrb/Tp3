@@ -50,13 +50,13 @@
                         <div class="col-md-3">
                             <div class="form-group">
                                 <label class="control-label">Historia Clínica</label>
-                                <input name="cCodigoHC" type="text" class="form-control" disabled>
+                                <input name="cNroHistoriaClinica" type="text" class="form-control" disabled>
                             </div> 
                         </div>
                         <div class="col-md-3">
                             <div class="form-group">
-                                <label class="control-label">Fecha Naciemiento</label>
-                                <input name="cFecNac" type="text" class="form-control" disabled>
+                                <label class="control-label">Fecha Nacimiento</label>
+                                <input name="cFechaNacimiento" type="text" class="form-control" disabled>
                             </div>
                         </div>
                         <div class="col-md-3">
@@ -77,11 +77,12 @@
                     <table class="table table-striped table-bordered table-hover order-column" id="tableNoPaging">
                         <thead>
                             <tr>
-                                <th class="novis"> Nro.Orden </th>
                                 <th class="novis"> IdOrden </th>
-                                <th> Médico Tratante </th>
-                                <th> Tipo Intervención </th>
-                                <th> Estado </th>
+                                <th> Nro.Orden </th>
+                                <th> Sexo </th>
+                                <th> Fecha de Intervención </th>
+                                <th>Tipo Intervención</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -98,10 +99,8 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Sede</label>
-                            <select class="form-control">
-                                <option value="S">Seleccione</option>
-                                <option value="M">San Borja</option>
-                                <option value="F">La Molina</option>
+                            <select id="cboSede" name="cboSede" class="form-control">
+                             
                             </select>
                         </div>
                     </div>
@@ -109,39 +108,32 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Zona</label>
-                            <select class="form-control">
-                                <option value="S">Seleccione</option>
-                                <option value="M">Torre A</option>
-                                <option value="F">Torre B</option>
+                            <select id="cboZona" name="cboZona" class="form-control">
+                              
                             </select>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Sala</label>
-                            <select class="form-control">
-                                <option value="S">Seleccione</option>
-                                <option value="M">S 301</option>
-                                <option value="F">S 302</option>
+                            <select id="cboSala" name="cboSala" class="form-control">
+                              
                             </select>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label>Hab.Reposo</label>
-                            <select class="form-control">
-                                <option value="S">Seleccione</option>
-                                <option value="M">HR 102</option>
-                                <option value="F">HR 206</option>
-                                <option value="F">HR 306</option>
+                            <select id="cboHabReposo" name="cboHabReposo" class="form-control">
+                               
                             </select>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="form-actions right">
-                <button type="button" class="btn default">Cancel</button>
-                <button type="submit" class="btn btn-exclusive">
+                 <a class="btn default" href="~/ointervencion/index">Cancelar</a>
+                <button id="btnRegistrarOrden" type="submit" class="btn btn-exclusive">
                     Registrar
                 </button>
             </div>

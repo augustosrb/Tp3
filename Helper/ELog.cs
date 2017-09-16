@@ -12,7 +12,7 @@ namespace Helper
     {
         public static void Save(object obj, Exception ex)
         {
-            string fecha = System.DateTime.Now.ToString("yyyyMMdd");
+            /*string fecha = System.DateTime.Now.ToString("yyyyMMdd");
             string hora = System.DateTime.Now.ToString("HH:mm:ss");
             string path = HttpContext.Current.Request.MapPath("~/log/" + fecha + ".txt");
 
@@ -24,7 +24,7 @@ namespace Helper
             sw.WriteLine("");
 
             sw.Flush();
-            sw.Close();
+            sw.Close();*/
         }
     }
 }

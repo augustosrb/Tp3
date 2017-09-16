@@ -1,0 +1,79 @@
+﻿<script type="text/javascript">
+    function MostrarDatos(pacid) {
+        alert('hola');
+    }
+</script>
+@{
+    ViewBag.Title = ViewBag.nombrePage;
+}
+<div class="portlet light bordered">
+    <div class="portlet-title">
+        <div class="caption">
+            <span class="caption-subject font-blue-hoki bold uppercase">@ViewBag.nombrePage</span>
+        </div>
+    </div>
+    <div class="portlet-body form">
+        <div action="#" class="horizontal-form">
+            <div class="form-body">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="form-group">
+                            <label class="control-label">Especialista : JULIO BAZÁN</label>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <label class="control-label">Fecha : </label>
+                            <label class="control-label">@ViewBag.fecha</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="control-label bold">Pacientes Hospitalizados</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="sortable_portlets">
+            <div id="fichastotalcuadro"></div>
+        </div>
+
+        <div class="modal fade" id="basic" tabindex="-1" role="basic" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header" style="text-align:center;">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title"><b>Información de Paciente Hospitalizado</b></h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <label class="control-label">Nombre : </label>
+                                <br />
+                                <label class="control-label">Edad : </label>
+                                <br />
+                                <label class="control-label">Sexo : </label>
+                                <br />
+                                <label class="control-label">Tipo de Intervención : </label>
+                                <br />
+                                <label class="control-label">Ubicación : </label>
+                                <br />
+                                <label class="control-label">Progreso de Atención : </label>
+                            </div>
+                            <div class="col-md-5">
+                                <img width="200" height="160" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn default">Guardar</button>
+                            <button type="button" class="btn dark btn-outline" data-dismiss="modal">Salir</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+

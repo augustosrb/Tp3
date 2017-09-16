@@ -14,17 +14,14 @@
                     <div class="col-md-3">
                         <div class="form-group">
                             <label class="control-label">Documento Identificación</label>
-                            <input type="text" id="firstName" class="form-control" placeholder="Documento Identificación">
+                            <input type="text" id="documento" class="form-control" placeholder="Documento Identificación">
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
                             <label class="control-label">Estado Orden</label>
-                            <select class="form-control">
-                                <option value="1">VIGENTE</option>
-                                <option value="2">VENCIDA</option>
-                                <option value="3">ATENDIDA</option>
-                                <option value="4">ANULADA</option>
+                            <select id="cboEstado" name="cboEstado" class="form-control">
+                               
                             </select>
                         </div>
                     </div>
@@ -48,18 +45,19 @@
             <table class="table table-striped table-bordered table-hover order-column" id="tableNormal">
                 <thead>
                     <tr>
-                        <th> Nro.Orden </th>
                         <th class="novis"> IdOrden </th>
-                        <th> DNI </th>
+                        <th> Nro.Orden </th>
                         <th> Apellidos y Nombres </th>
+                        <th> DNI </th>
                         <th> Sede </th>
                         <th> Tipo de Intervención </th>
+                        <th> Fecha </th>
                         <th> Estado </th>
-                        <th> Acción </th>
+                        <th></th>
+                        <th></th>
                     </tr>
                 </thead>
-                <tbody>
-                </tbody>
+                <tbody></tbody>
             </table>
         </div>
 

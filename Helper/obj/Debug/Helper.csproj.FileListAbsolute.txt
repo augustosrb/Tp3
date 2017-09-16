@@ -18,3 +18,15 @@ D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\bin\Debug\Helper.pdb
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.dll
 D:\Proyectos\net\clinica\Clinica RP\ERP-HIS\ERP-HIS\Helper\obj\Debug\Helper.pdb
+D:\UPC\TP3\software\ERP-HIS\Helper\bin\Debug\Helper.dll
+D:\UPC\TP3\software\ERP-HIS\Helper\bin\Debug\Helper.pdb
+D:\UPC\TP3\software\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+D:\UPC\TP3\software\ERP-HIS\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+D:\UPC\TP3\software\ERP-HIS\Helper\obj\Debug\Helper.dll
+D:\UPC\TP3\software\ERP-HIS\Helper\obj\Debug\Helper.pdb
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\bin\Debug\Helper.dll
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\bin\Debug\Helper.pdb
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\obj\Debug\Helper.csprojResolveAssemblyReference.cache
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\obj\Debug\Helper.csproj.CoreCompileInputs.cache
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\obj\Debug\Helper.dll
+C:\Users\Augusto\Desktop\TP3\ERP-HIS\Helper\obj\Debug\Helper.pdb

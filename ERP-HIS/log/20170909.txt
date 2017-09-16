@@ -1,0 +1,72 @@
+DLHIS.DLMaestro 18:50:38
+DL_ConsultarMaestro - Valor de tiempo de espera caducado. El período de tiempo de espera expiró antes de obtener una conexión del grupo. Esto puede suceder porque todas las conexiones de la agrupación estaban en uso y se alcanzó el máximo tamaño del grupo.
+
+DLHIS.DLTipoIntervencion 18:50:38
+DL_ConsultarTipoInternvencion - Valor de tiempo de espera caducado. El período de tiempo de espera expiró antes de obtener una conexión del grupo. Esto puede suceder porque todas las conexiones de la agrupación estaban en uso y se alcanzó el máximo tamaño del grupo.
+
+BLHIS.BLMaestro 18:50:38
+BL_ConsultarMaestro - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLTipoIntervencion 18:50:38
+BL_ConsultarTipoIntervencion - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLTipoIntervencion 18:50:39
+DL_ConsultarTipoInternvencion - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLTipoIntervencion 18:50:39
+BL_ConsultarTipoIntervencion - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLPriorizarAtencion 18:50:39
+DL_ConsultarPriorizados - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLMaestro 18:50:40
+DL_ConsultarMaestro - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLMaestro 18:50:40
+DL_ConsultarMaestro - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLMaestro 18:50:40
+BL_ConsultarMaestro - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLPriorizarAtencion 18:50:40
+BL_ConsultarPriorizados - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLTipoIntervencion 18:50:42
+DL_ConsultarTipoInternvencion - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+DLHIS.DLMaestro 18:50:42
+DL_ConsultarMaestro - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLMaestro 18:50:42
+BL_ConsultarMaestro - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLTipoIntervencion 18:50:42
+BL_ConsultarTipoIntervencion - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLPriorizarAtencion 18:50:42
+DL_ConsultarPriorizados - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLPriorizarAtencion 18:50:43
+BL_ConsultarPriorizados - Referencia a objeto no establecida como instancia de un objeto.
+
+DLHIS.DLTipoIntervencion 18:50:39
+DL_ConsultarTipoInternvencion - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLPriorizarAtencion 18:50:51
+BL_ConsultarPriorizados - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLPriorizarAtencion 18:50:51
+BL_ConsultarPriorizados - Referencia a objeto no establecida como instancia de un objeto.
+
+BLHIS.BLTipoIntervencion 18:50:51
+BL_ConsultarTipoIntervencion - Referencia a objeto no establecida como instancia de un objeto.
+
+ERP_HIS.Controllers.ErrorController 18:50:52
+Index - El proceso no puede obtener acceso al archivo 'C:\Users\Augusto\Desktop\TP3\ERP-HIS\ERP-HIS\log\20170909.txt' porque está siendo utilizado en otro proceso.
+
+DLHIS.DLOrden 18:51:08
+DL_BuscarPaciente - Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+BLHIS.BLOrden 18:51:08
+BL_BuscarPaciente - Referencia a objeto no establecida como instancia de un objeto.
+

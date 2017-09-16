@@ -8,37 +8,35 @@ namespace ELHIS
 {
     public class ELOrdenIntervencion
     {
-        [ELColumn("IdOrden")]
-        public string Id { get; set; }
+        [ELColumn("nOrdenIntervencionId")]
+        public int nOrdenIntervencionId { get; set; }
 
-        [ELColumn("DNI")]
-        public string DNI { get; set; }
+        [ELColumn("cIdIntervencion")]
+        public string cIdIntervencion { get; set; }
 
-        [ELColumn("ApeNom")]
-        public string ApeNom { get; set; }  
+        [ELColumn("cNomCompleto")]
+        public string cNomCompleto { get; set; }
 
-        [ELColumn("Sede")]
-        public string Sede { get; set; }
+        [ELColumn("cSexo")]
+        public string cSexo { get; set; }  
 
-        [ELColumn("TipoInt")]
-        public string TipoInt { get; set; }
+        [ELColumn("cNroDocumento")]
+        public string cNroDocumento { get; set; }
 
-        [ELColumn("Fecha")]
-        public string Fecha { get; set; }
 
-        [ELColumn("Estado")]
-        public string Estado { get; set; }
+        public DateTime dFechaIntervencion { get; set; }
 
-        [ELColumn("nOrdenIntId")]
-        public int nOrdenIntId { get; set; } 
+        [ELColumn("cFechaIntervencion")]
+        public string cFechaIntervencion { get; set; }
 
-        public int EstadoId { get; set; }
+        [ELColumn("cSede")]
+        public string cSede { get; set; }
 
-        public string Medico { get; set; }
+        [ELColumn("cEstado")]
+        public string cEstado { get; set; }
 
-        public int TipoIntId { get; set; }
-
-        public DateTime fecha_nacimiento { get; set; }
+        [ELColumn("cTipoIntNombre")]
+        public string cTipoIntNombre { get; set; }
 
     }
 }
