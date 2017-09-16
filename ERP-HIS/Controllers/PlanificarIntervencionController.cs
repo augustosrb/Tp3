@@ -12,7 +12,7 @@ namespace ERP_HIS.Controllers
 {
     public class PlanificarIntervencionController : Controller
     {
-        // GET: PlanificarIntervencion
+        
         public ActionResult Index()
         {
             ViewBag.nombrePage = "Planificar Intervención";

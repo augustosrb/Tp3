@@ -10,6 +10,8 @@ using ERP_HIS.CustomAttributes;
 
 namespace ERP_HIS.Controllers
 {
+    //ARB : Búsqueda de paciente por historia clínica -- buscarPacienteHistoria -- 09-09-2017
+    //JBT:  Se cambió el tipo de dato int a string --buscarPacienteHistoria --  09-09-2017
     public class ActualizarPostOpeController : Controller
     {
         // GET: ActualizarPostOpe
@@ -19,7 +21,7 @@ namespace ERP_HIS.Controllers
             return View();
         }
 
-
+    
         public JsonResult buscarPacienteHistoria(string hc)
         {
             BLOrden bl = new BLOrden();
@@ -27,7 +29,7 @@ namespace ERP_HIS.Controllers
             return Json(objBuscarPaciente, JsonRequestBehavior.AllowGet);
         }
 
-
+        //ARB : Registra estado Post Operatorio del paciente
         public JsonResult registrarPostOpe(int nHistoriaClinica, string cSubjetivo, string cApreciacion)
         {
             BLOrden bl = new BLOrden();
