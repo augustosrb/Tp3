@@ -12,6 +12,7 @@ namespace ERP_HIS.Controllers
 {
     //ARB : Búsqueda de paciente por historia clínica -- buscarPacienteHistoria -- 09-09-2017
     //JBT:  Se cambió el tipo de dato int a string --buscarPacienteHistoria --  09-09-2017
+
     public class ActualizarPostOpeController : Controller
     {
         // GET: ActualizarPostOpe
