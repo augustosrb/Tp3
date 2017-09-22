@@ -7,13 +7,19 @@
         hc = $("#historiaClinica").val();
         subjetivo = $("#txtSubjetivo").val();
         apre = $("#txtAApreciacion").val();
+        
+        if (hc == null && subjetivo == null && apre == null) {
+            $.get("http://localhost:55465/actualizarpostope/registrarPostOpe",
+                { nHistoriaClinica: hc, cSubjetivo: subjetivo, cApreciacion: apre },
+                function (result, status) {
+                    toastr.success("", 'Registro Exitoso');
 
-        $.get("http://localhost:55465/actualizarpostope/registrarPostOpe",
-            { nHistoriaClinica: hc, cSubjetivo: subjetivo, cApreciacion: apre },
-            function (result, status) {
-                toastr.success("", 'Registro Exitoso');
-
-            });
+                });
+        }
+        else
+        {
+                toastr.error("", 'Ingrese todos los campos.');
+        }
     });
 
     $('#btnAgregarAct').click(function () {
