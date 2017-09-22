@@ -25,6 +25,7 @@
             if (hc == "" && subjetivo == "" && apre == "") {
                 toastr.error("", 'Ingrese todos los campos.');
             }
+
             else {
                 $.get("http://localhost:55465/actualizarpostope/registrarPostOpe",
                     { nHistoriaClinica: hc, cSubjetivo: subjetivo, cApreciacion: apre },
