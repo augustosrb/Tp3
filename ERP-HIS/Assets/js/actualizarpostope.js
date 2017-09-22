@@ -9,6 +9,19 @@
         apre = $("#txtAApreciacion").val();
         var form = $('#form_buscar_paciente');
         if (form.valid() == true) {
+            if (subjetivo == "" && apre == "") {
+                toastr.error("", 'Ingrese apreciación y subjetivo.');
+                return;
+            }
+            if (subjetivo == "") {
+                toastr.error("", 'Ingrese campo subjetivo.');
+                return;
+            }
+            if (apre == "" && apre == "") {
+                toastr.error("", 'Ingrese campo apreciación.');
+                return;
+            }
+
             if (hc == "" && subjetivo == "" && apre == "") {
                 toastr.error("", 'Ingrese todos los campos.');
             }
