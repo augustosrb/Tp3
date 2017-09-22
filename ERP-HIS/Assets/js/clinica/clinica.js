@@ -16,6 +16,15 @@
     var tipointervenciones = "";
     var name = "tipointervencion";
 
+    $('div.myClass').click(function () {
+        var text = $(this).text();
+        alert(text);
+        // do something with the text
+    });
+
+    $('#myDiv1').on("click", function () { 
+        alert("onclick");
+    });
     $.get("http://localhost:55465/planificarintervencion/ListadoTipoInt", function (result, status) {
 
         $('select[id="' + name + '"] option').remove();
@@ -33,8 +42,11 @@
         var resultado = "";
 
         resultado =
-            "<div class='col-md-4 column sortable'>" +
-            "<div href='#basic' data-toggle='modal' class='portlet portlet- sortable box " + color + "'>" +
+            /*"<div class='myClass'>1</div>"+
+            "<div class='myClass'>2</div>"+
+            "<div class='myClass'>3</div>"+*/
+            "<div  class='col-md-4 column sortable'>" +
+            "<div  class='portlet portlet- sortable box " + color + "'>" +
             "<div class='portlet-title'>" +
             "<div class='tools'>" +
             "<a href='' class='remove'> </a>" +
@@ -48,7 +60,7 @@
             "<div class='col-md-8'>" +
             "<label class='control-label bold'>DATOS PACIENTE</label>" +
             "<label class='control-label'>Apellidos y Nombres</label>" +
-            "<label class='control-label bold'>" + nombres + "</label>" +
+            "<label id='myDiv1' class='control-label bold'>" + nombres + "</label>" +
             "</div>" +
             "</div>" +
             "<div class='row'>" +
@@ -106,6 +118,15 @@
         registrar_detalle();
     });
 });
+
+var modal = function () {
+  
+
+    alert("hola");
+    var name = $("div.portlet").find("input[class='exclusive']").val();
+    alert(name);
+
+}
 
 var metodo_listar = function () {
     var oTable = $('#tableNormal').dataTable();
